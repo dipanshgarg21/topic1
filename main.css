@@ -1,0 +1,25 @@
+hr {
+    border-style: none;
+    background-color: rgb(246, 249, 248);
+    height: 3px;
+}
+
+body{
+    background-color: rgb(224, 235, 232);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(62, 156, 135);
+}
+
+h2 {
+    font-size: 28px;
+    color: rgb(74, 177, 154);
+}
+
+li::marker {
+    font-size: 2rem;
+    font-weight: bolder;
+}
