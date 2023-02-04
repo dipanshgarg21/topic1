@@ -18,35 +18,21 @@ h1 {
 h2 {
     font-size: 28px;
     color: rgb(74, 177, 154);
-    text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
-
-ul::marker {
-    font-size: 2rem;
-    font-weight: bolder;
-}
-
-header{
+* header{
     width: 100%;
     background-color: seagreen;
-    padding: 1em;
-    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+#Navbar{
+    color:rgb(71, 247, 209);
+    padding-left: 10px;
 }
 
-p{
-    text-align: center;
-}
-
-li{
-    text-align: center;
+#NavOptions{
+    
 }
