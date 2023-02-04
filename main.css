@@ -19,7 +19,15 @@ h2 {
     color: rgb(74, 177, 154);
 }
 
-li::marker {
+ul::marker {
     font-size: 2rem;
     font-weight: bolder;
+}
+
+header{
+    width: 100%;
+    background-color: darkblue;
+    color: rgb(62, 156, 135);
+    padding: 1em;
+    text-align: center;
 }
