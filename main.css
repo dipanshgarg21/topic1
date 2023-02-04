@@ -1,17 +1,25 @@
 hr {
     border-style: none;
-    background-color: rgb(246, 249, 248);
+    background-color: rgb(168, 172, 171);
     height: 3px;
 }
 
 body{
-    background-color: rgb(224, 235, 232);
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:0%;
+    margin:0%; 
+    margin-top: -30px;
+}
+
+.titlebar {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 h1 {
     font-size: 35px;
-    color: rgb(71, 247, 209);
+    color: rgb(62, 156, 135);
     text-align: center;
 }
 
@@ -20,19 +28,47 @@ h2 {
     color: rgb(74, 177, 154);
 }
 
-* header{
+header{
     width: 100%;
-    background-color: seagreen;
+    background-color: rgb(179, 202, 196);
     padding: 0%;
     margin: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#Navbar{
-    color:rgb(71, 247, 209);
-    padding-left: 10px;
+nav{
+    background-color: rgb(224, 235, 232);
+    margin-top: -23.5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
-#NavOptions{
-    
+nav li:hover{
+    color:grey;
+}
+
+div{
+    background-color: rgb(224, 235, 232);
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#menu{
+    margin-left: 2%;
+    font-size: x-large;
+}
+
+nav a{
+    color: seagreen;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+#dipansh{
+    border-radius: 100%;
+    width: 300px;
+    height: 400px;
 }
